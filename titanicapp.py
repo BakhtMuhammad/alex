@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 st.title('Titanic Prediction App!')
-st.image('Image.png', caption='Predict Survival on the Titanic')
+st.image('image.png', caption='Predict Survival on the Titanic')
 
 #Load the pretrained model
 with open('titanicpickle.pkl', 'rb') as pickle_file:
@@ -54,3 +54,4 @@ def main():
 
 
 main()
+
