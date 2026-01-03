@@ -3,7 +3,7 @@ import pickle
 
 #Set the title and Display an Image for Branding
 st.title('Titanic Survival Prediction Web App!')
-st.image('image.png', caption = 'Predict Survival on the Titanic')
+st.image('titanic_image.png', caption = 'Predict Survival on the Titanic')
 
 #Load the pretrained model
 with open('titanicpickle.pkl', 'rb') as pickleFile:
@@ -53,3 +53,4 @@ def main():
 #Run the main function
 if __name__ == '__main__':
     main()
+
